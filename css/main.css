@@ -1,5 +1,3 @@
- #4a4e4d - #0e9aa7 - #3da4ab - #f6cd61 - #fe8a71 */
-
 html {
     height: 100%;
 }
@@ -9,23 +7,7 @@ body {
     height: 100%;
     margin: 0px;
 }
-/*
-.main {
-  font-family: 'Source Code Pro', monospace;
-  font-size: 36pt;
-  color: #000000;
 
-  position: absolute;
-  margin: auto;
-  top: 0;
-  right: 30px;
-  bottom: 0;
-  left: 30px;
-  max-width: 1000px;
-  height: 700px;
-
-}
-*/
 a {
     text-decoration: none;  
     color: inherit;
@@ -40,7 +22,7 @@ a:hover {
 }
 
 .social a:hover {
-    color: rgb(53,167,255);
+    color: rgb(3, 146, 207);
     cursor:pointer;
 }
 
@@ -51,6 +33,7 @@ a:hover {
   font-size: 30pt;
 }
 
+/* Main content div ========================================================= */
 
 .outer {
   display: table;
@@ -65,11 +48,9 @@ a:hover {
 }
 
 .inner {
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Merriweather', monospace;
   font-size: 30pt;
   color: #000000;
-  text-align: justify;
-
   margin-left: auto;
   margin-right: auto;
   max-width: 1200px;
@@ -77,32 +58,36 @@ a:hover {
   line-height: 1.7em;
 }
 
-c1 { color:rgb(0,255,197); }
+/* Color highlights ========================================================= */
+
+c1 { color:rgb(123, 192, 67); }
 c2 { color:rgb(245,183,0); }
-c3 { color:rgb(255,89,100); }
+c3 { color:rgb(238, 64, 53); }
 c4 { color:rgb(92,39,81); }
-c5 { color:rgb(53,167,255); }
-c6 { color:rgb(0,255,197); }
+c5 { color:rgb(3, 146, 207); }
+c6 { color:rgb(123, 192, 67); }
 c7 { color:rgb(245,183,0); }
-c8 { color:rgb(53,167,255); }
+c8 { color:rgb(3, 146, 207); }
 
-c1 a { box-shadow: rgba(0,255,197, 0.2) 0px -8px 0px 0px inset; }
+c1 a { box-shadow: rgba(123, 192, 67, 0.2) 0px -8px 0px 0px inset; }
 c2 a { box-shadow: rgba(245,183,0, 0.2) 0px -8px 0px 0px inset; }
-c3 a { box-shadow: rgba(255,89,100, 0.2) 0px -8px 0px 0px inset; }
+c3 a { box-shadow: rgba(238, 64, 53, 0.2) 0px -8px 0px 0px inset; }
 c4 a { box-shadow: rgba(92,39,81, 0.2) 0px -8px 0px 0px inset; }
-c5 a { box-shadow: rgba(53,167,255, 0.2) 0px -8px 0px 0px inset; }
-c6 a { box-shadow: rgba(0,255,197, 0.2) 0px -8px 0px 0px inset; }
+c5 a { box-shadow: rgba(3, 146, 207, 0.2) 0px -8px 0px 0px inset; }
+c6 a { box-shadow: rgba(123, 192, 67, 0.2) 0px -8px 0px 0px inset; }
 c7 a { box-shadow: rgba(245,183,0, 0.2) 0px -8px 0px 0px inset; }
-c8 a { box-shadow: rgba(53,167,255, 0.2) 0px -8px 0px 0px inset; }
+c8 a { box-shadow: rgba(3, 146, 207, 0.2) 0px -8px 0px 0px inset; }
 
-c1 a:hover { background-color:rgb(0,255,197); }
+c1 a:hover { background-color:rgb(123, 192, 67); }
 c2 a:hover { background-color:rgb(245,183,0); }
-c3 a:hover { background-color:rgb(255,89,100); }
+c3 a:hover { background-color:rgb(238, 64, 53); }
 c4 a:hover { background-color:rgb(92,39,81); }
-c5 a:hover { background-color:rgb(53,167,255); }
-c6 a:hover { background-color:rgb(0,255,197); }
+c5 a:hover { background-color:rgb(3, 146, 207); }
+c6 a:hover { background-color:rgb(123, 192, 67); }
 c7 a:hover { background-color:rgb(245,183,0); }
-c8 a:hover { background-color:rgb(53,167,255); }
+c8 a:hover { background-color:rgb(3, 146, 207); }
+
+/* Responsive Adjustments =================================================== */
 
 @media only screen and (max-width: 1200px) {
     .inner {
