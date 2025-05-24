@@ -6,6 +6,11 @@ body {
     width: 100%;
     height: 100%;
     margin: 0px;
+    background: #000;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 a {
@@ -31,6 +36,21 @@ a:hover {
   text-align: right;
   color: gray;
   font-size: 30pt;
+}
+
+.center-icons {
+  display: flex;
+  gap: 2rem;
+}
+
+.center-icons a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.center-icons a:hover {
+  color: #1da1f2;
 }
 
 /* Main content div ========================================================= */
